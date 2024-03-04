@@ -1,4 +1,0 @@
-DSCH 2.7a
-VERSION 2/16/2023 8:00:19 AM
-BB(-15,-15,70,70)
-FFIG C:\project10\csa1.sch

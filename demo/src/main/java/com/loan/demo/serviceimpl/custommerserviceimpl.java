@@ -2,6 +2,7 @@ package com.loan.demo.serviceimpl;
 
 import java.util.List;
 import java.util.NoSuchElementException;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -32,6 +33,12 @@ public class custommerserviceimpl implements customerservice {
 	public customer createCustomer(customer cust) {
 		
 		return customerRespositry.save(cust);
+	}
+
+	@Override
+	public boolean findbyusername(String username, String password) {
+		Optional<customer> optcust=customerRespositry.findbyusername(username,password);
+		return optcust.map(customer -> customer.login(username,password)).orElse(false);
 	}
 	
 	

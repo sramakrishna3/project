@@ -28,8 +28,7 @@ public class transcationcontroller {
 	@GetMapping("/{id}")
 	public ResponseEntity<transcation> getbytranscid(@PathVariable Long id){
 		transcation trans=tsil.gettranscationid(id);
-		return new ResponseEntity<>(trans,HttpStatus.OK);
-		
+		return new ResponseEntity<>(trans,HttpStatus.OK);	
 	}
 	
 }

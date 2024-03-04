@@ -9,5 +9,6 @@ public interface customerservice {
 	List<customer> getallcustomers();
 	customer getCustomerid(Long id);
 	customer createCustomer(customer cust);
+	boolean findbyusername(String username, String password);
 
 }

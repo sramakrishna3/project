@@ -34,7 +34,7 @@ screenshots
 <img width="908" height="639" alt="image" src="https://github.com/user-attachments/assets/beaf49da-1dfb-4ac8-b479-56c75c2aff2f" />
 
 <h1>Loan System</h1>
-<h2>Customer takes loan with usind id</h2>
+<h2>Customer takes loan with using id</h2>
 <img width="911" height="627" alt="image" src="https://github.com/user-attachments/assets/71b3ad5f-9622-488b-b837-c78b5535dd61" />
 <h2>check loan details with loan id</h2>
 <img width="911" height="636" alt="image" src="https://github.com/user-attachments/assets/ddc9d6d1-0b50-49e3-9e64-f3824f71400f" />
